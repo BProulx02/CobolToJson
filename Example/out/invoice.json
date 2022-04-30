@@ -1,0 +1,46 @@
+{
+  "CUSTOMER-DATA" : [ {
+    "CUSTOMER-NUMBER" : 1,
+    "LAST-NAME" : "test-lastname",
+    "FIRST-NAME" : "test-firstname",
+    "INVOICE-COUNT" : 2,
+    "INVOICES" : [ {
+      "INVOICE-NUMBER" : "INV0000001",
+      "INVOICE-DATE" : "2016-12-01",
+      "INVOICE-AMOUNT" : 1000,
+      "INVOICE-DESCRIPTION" : "Invoice for cable1",
+      "INV-SUB-CT" : 2,
+      "SUB-INVS" : [ {
+        "SUB-INVOICES-DATA" : "INVS11"
+      }, {
+        "SUB-INVOICES-DATA" : "INVS12"
+      } ]
+    }, {
+      "INVOICE-NUMBER" : "INV0000002",
+      "INVOICE-DATE" : "2016-12-02",
+      "INVOICE-AMOUNT" : 2000,
+      "INVOICE-DESCRIPTION" : "Invoice for cable2",
+      "INV-SUB-CT" : 2,
+      "SUB-INVS" : [ {
+        "SUB-INVOICES-DATA" : "INVS21"
+      }, {
+        "SUB-INVOICES-DATA" : "INVS22"
+      } ]
+    } ]
+  }, {
+    "CUSTOMER-NUMBER" : 2,
+    "LAST-NAME" : "test-lastname2",
+    "FIRST-NAME" : "test-firstname2",
+    "INVOICE-COUNT" : 1,
+    "INVOICES" : [ {
+      "INVOICE-NUMBER" : "INV0000001",
+      "INVOICE-DATE" : "2015-12-01",
+      "INVOICE-AMOUNT" : 1000,
+      "INVOICE-DESCRIPTION" : "Invoice for cable6",
+      "INV-SUB-CT" : 1,
+      "SUB-INVS" : [ {
+        "SUB-INVOICES-DATA" : "INVS1"
+      } ]
+    } ]
+  } ]
+}
